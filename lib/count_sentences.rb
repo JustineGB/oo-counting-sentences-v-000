@@ -1,10 +1,10 @@
 require 'pry'
 
 class String
-attr_reader :sentence
+#attr_reader :sentence
 
   def sentence?
-    self.sentence.end_with?(".")
+    self.end_with?(".")
   end
 
   def question?
