@@ -17,7 +17,7 @@ class String
 
   def count_sentences
     if self.end_with?(".", "!", "?") == true
-    self.split.size
+    self.split.count
   else
     return 0
     #binding.pry
