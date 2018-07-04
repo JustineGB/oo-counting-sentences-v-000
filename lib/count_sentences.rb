@@ -19,7 +19,7 @@ class String
     if self.end_with?(".", "!", "?") == true
     self.split.size
   else
-    return "0"
+    return 0
     #binding.pry
 #split the string up by sentences. return 0 if no strings. a sentence must end on punc and start with a cap.
 end
