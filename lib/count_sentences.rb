@@ -16,7 +16,7 @@ class String
   end
 
   def count_sentences
-    if sentence? || question? || exclamation? || == true 
+    if sentence? || question? || exclamation? == true
       self.string.split.size
     binding.pry
 #split the string up by sentences. return 0 if no strings. a sentence must end on punc and start with a cap.
