@@ -16,6 +16,9 @@ class String
   end
 
   def count_sentences
+    self.end_with?("!", ".", "?").split
+    binding.pry
+#split the string up by sentences. return 0 if no strings. a sentence must end on punc and start with a cap. 
 
   end
 end
